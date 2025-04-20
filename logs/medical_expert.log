@@ -352,3 +352,77 @@ Il s'agit des sympt�mes que je peux actuellement prendre en compte pour �tablir 
 [2025-04-20 09:39:35,403] DEBUG [httpcore.http11:87] response_closed.started
 [2025-04-20 09:39:35,404] DEBUG [httpcore.http11:87] response_closed.complete
 [2025-04-20 09:39:35,454] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : 
+[2025-04-20 10:30:54,339] INFO [werkzeug:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.100.208:8000
+[2025-04-20 10:30:54,340] INFO [werkzeug:97] [33mPress CTRL+C to quit[0m
+[2025-04-20 10:31:12,115] INFO [werkzeug:97] 192.168.100.208 - - [20/Apr/2025 10:31:12] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-20 10:31:12,158] INFO [werkzeug:97] 192.168.100.208 - - [20/Apr/2025 10:31:12] "[33mGET / HTTP/1.1[0m" 404 -
+[2025-04-20 10:31:12,239] INFO [werkzeug:97] 192.168.100.208 - - [20/Apr/2025 10:31:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-20 10:31:12,260] INFO [werkzeug:97] 192.168.100.208 - - [20/Apr/2025 10:31:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-04-20 10:35:03,123] INFO [medical_expert_api:85] Nouvelle session API créée : session_id=session_20250420_103503_2c62 user_id=user_9b569538
+[2025-04-20 10:35:03,123] INFO [werkzeug:97] 127.0.0.1 - - [20/Apr/2025 10:35:03] "POST /api/session/new HTTP/1.1" 200 -
+[2025-04-20 10:36:15,860] INFO [medical_expert_api:113] Nouvelle session API implicite : session_id=session_20250420_103615_577c user_id=user_3a7b4d5c
+[2025-04-20 10:36:15,862] INFO [medical_expert_api:119] API User(user_3a7b4d5c) [session_20250420_103615_577c] : J'ai de la fièvre et je tousse depuis 3 jours
+[2025-04-20 10:36:15,991] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 10:36:16,311] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA5DE8EDF0>
+[2025-04-20 10:36:16,311] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000001EA5DCBDF40> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 10:36:16,991] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA5DE8EB80>
+[2025-04-20 10:36:16,991] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 10:36:16,992] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 10:36:16,992] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 10:36:16,992] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 10:36:16,992] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 10:36:18,645] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 09:36:17 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1497'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 10:36:18,649] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 10:36:18,651] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 10:36:18,651] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 10:36:18,651] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 10:36:18,655] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 10:36:18,656] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 10:36:18,657] INFO [medical_expert_api:136] API Agent [session_20250420_103615_577c] : Bonjour ! Dr. Fox à votre service. Je suis là pour vous aider à comprendre ce qui vous arrive.
+
+La fièvre et la toux peuvent être les symptômes de nombreuses affections. Pour affiner mon diagnostic, pourriez-vous me dire si vous avez d'autres symptômes ? Par exemple, avez-vous mal à la gorge, des courbatures, ou des difficultés à respirer ?
+[2025-04-20 10:36:18,658] INFO [werkzeug:97] 127.0.0.1 - - [20/Apr/2025 10:36:18] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-20 10:36:40,424] INFO [medical_expert_api:113] Nouvelle session API implicite : session_id=session_20250420_103640_2e2b user_id=user_ebc5a3dd
+[2025-04-20 10:36:40,424] INFO [medical_expert_api:119] API User(user_ebc5a3dd) [session_20250420_103640_2e2b] : oui du mal a respirer
+[2025-04-20 10:36:40,473] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 10:36:40,590] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA5DE71B20>
+[2025-04-20 10:36:40,590] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000001EA5DCBDE40> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 10:36:42,840] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA5DE71A60>
+[2025-04-20 10:36:42,840] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 10:36:42,840] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 10:36:42,840] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 10:36:42,840] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 10:36:42,840] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 10:36:44,747] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 09:36:43 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1541'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 10:36:44,747] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 10:36:44,747] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 10:36:44,747] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 10:36:44,747] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 10:36:44,747] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 10:36:44,747] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 10:36:44,750] INFO [medical_expert_api:136] API Agent [session_20250420_103640_2e2b] : Bonjour ! Dr. Fox à votre service. Je comprends que vous avez du mal à respirer. C'est un symptôme important. Pourriez-vous me donner plus de détails ? Est-ce que c'est apparu soudainement ? Y a-t-il d'autres symptômes que vous ressentez ?
+[2025-04-20 10:36:44,750] INFO [werkzeug:97] 127.0.0.1 - - [20/Apr/2025 10:36:44] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-20 10:37:14,039] INFO [medical_expert_api:113] Nouvelle session API implicite : session_id=session_20250420_103714_e671 user_id=user_8f789d3e
+[2025-04-20 10:37:14,039] INFO [medical_expert_api:119] API User(user_8f789d3e) [session_20250420_103714_e671] : tu viens de demarer une noouvelle session ou tu te souviens de mon precedent message ?
+[2025-04-20 10:37:14,070] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 10:37:14,179] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA5DF2BA30>
+[2025-04-20 10:37:14,179] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000001EA5DCBDEC0> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 10:37:36,307] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA5DF2B790>
+[2025-04-20 10:37:36,307] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 10:37:36,308] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 10:37:36,308] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 10:37:36,308] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 10:37:36,308] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 10:37:36,308] DEBUG [httpcore.http11:87] receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[2025-04-20 10:37:36,308] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 10:37:36,309] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 10:37:36,338] INFO [medical_expert_api:136] API Agent [session_20250420_103714_e671] : 
+[2025-04-20 10:37:36,339] INFO [werkzeug:97] 127.0.0.1 - - [20/Apr/2025 10:37:36] "POST /api/chat HTTP/1.1" 200 -
+[2025-04-20 10:38:17,712] INFO [werkzeug:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.100.208:8000
+[2025-04-20 10:38:17,712] INFO [werkzeug:97] [33mPress CTRL+C to quit[0m

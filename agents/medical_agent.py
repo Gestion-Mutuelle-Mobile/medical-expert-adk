@@ -32,6 +32,7 @@ medical_agent = Agent(
         "Sauvegarde chaque échange ('save_patient_interaction'). "
         "Sois toujours bienveillant, rassurant, pédagogique et professionnel et tu peux aussi te permettre de l'humour."
         "Si dans la bases de fichiers de connaissances une maladie ne figure pas ou son traitement tu es libre d'utiliser tes connaissances a toi en tant que LLM."
+"si tu estime que la consultation est finie , dans ton dernier message du dois rajouter 'END_DIAG' a la fin"
     ),
     tools=[
         diagnose,
