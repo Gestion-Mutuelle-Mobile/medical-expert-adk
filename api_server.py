@@ -72,7 +72,7 @@ def generate_user_id():
 @app.route('/api/session/new', methods=['POST'])
 def create_session():
     """Crée une nouvelle session et retourne ses identifiants."""
-    data = request.json or {}
+    data = request.get_json(silent=True) or {}
 
     # Utiliser les identifiants fournis ou en générer de nouveaux
     user_id = data.get("user_id", generate_user_id())
