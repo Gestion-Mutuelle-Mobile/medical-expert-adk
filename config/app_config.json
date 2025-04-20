@@ -1,0 +1,16 @@
+{
+  "app_name": "medical_expert_adk",
+  "default_model": "gemini-2.0-flash",
+  "session_timeout_minutes": 60,
+  "max_questions_per_session": 20,
+  "language": "fr",
+  "logs_dir": "logs/",
+  "sessions_dir": "sessions/",
+  "data_dir": "data/",
+  "save_patient_history": true,
+  "api_enabled": true,
+  "file_interface_enabled": true,
+  "input_files_dir": "data/demo_inputs/",
+  "output_files_dir": "data/demo_outputs/",
+  "medical_agent_name": "medical_expert_agent"
+}

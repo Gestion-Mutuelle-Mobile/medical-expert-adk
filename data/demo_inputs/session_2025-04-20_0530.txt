@@ -1,0 +1,5 @@
+send_by_patient:Bonjour, je ressens de la fatigue et des douleurs à la poitrine.
+send_by_patient:Je tousse un peu, pas de fièvre.
+send_by_patient:Non, pas d'évanouissement.
+send_by_doctor:Peut-on avoir plus de détails sur la durée des symptômes ?
+send_by_patient:Depuis 3 jours, c'est apparu progressivement.

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "formatters": {
+    "detailed": {
+      "format": "[%(asctime)s] %(levelname)s [%(name)s:%(lineno)d] %(message)s"
+    }
+  },
+  "handlers": {
+    "console": {
+      "class": "logging.StreamHandler",
+      "formatter": "detailed",
+      "level": "INFO"
+    },
+    "file": {
+      "class": "logging.FileHandler",
+      "filename": "logs/medical_expert.log",
+      "formatter": "detailed",
+      "level": "DEBUG"
+    }
+  },
+  "root": {
+    "handlers": ["console", "file"],
+    "level": "DEBUG"
+  }
+}

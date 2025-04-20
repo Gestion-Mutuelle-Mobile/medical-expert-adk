@@ -1,0 +1,65 @@
+{
+  "Covid": [
+    "cough",
+    "fever"
+  ],
+  "Alzheimers": [
+    "chest_pain",
+    "fatigue"
+  ],
+  "Asthma": [
+    "sunken_eyes",
+    "fatigue"
+  ],
+  "Diabetes": [
+    "restlessness",
+    "fatigue"
+  ],
+  "Epilepsy": [
+    "headache",
+    "sunken_eyes"
+  ],
+  "Glaucoma": [
+    "sunken_eyes",
+    "fever",
+    "sore_throat"
+  ],
+  "Heart Disease": [
+    "fainting"
+  ],
+  "Heat Stroke": [
+    "fainting",
+    "fever"
+  ],
+  "Hyperthyroidism": [
+    "sunken_eyes",
+    "restlessness"
+  ],
+  "Hypothermia": [
+    "chest_pain",
+    "fatigue",
+    "sore_throat"
+  ],
+  "Jaundice": [
+    "cough",
+    "headache",
+    "fever"
+  ],
+  "Sinusitis": [
+    "headache",
+    "fever",
+    "sore_throat"
+  ],
+  "Tuberculosis": [
+    "sunken_eyes",
+    "fatigue",
+    "fever",
+    "restlessness"
+  ],
+  "Grippe": [
+    "chest_pain",
+    "cough",
+    "fatigue",
+    "fever"
+  ]
+}

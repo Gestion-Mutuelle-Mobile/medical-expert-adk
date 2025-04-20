@@ -1,0 +1,12 @@
+{
+  "chest_pain": "Avez-vous des douleurs à la poitrine ? (oui/non)",
+  "cough": "Avez-vous de la toux ? (oui/non)",
+  "fainting": "Avez-vous eu des évanouissements ? (oui/non)",
+  "fatigue": "Avez-vous ressenti de la fatigue ? (oui/non)",
+  "headache": "Avez-vous des maux de tête ? (oui/non)",
+  "back_pain": "Avez-vous des douleurs dorsales ? (oui/non)",
+  "sunken_eyes": "Avez-vous les yeux cernés/enfoncés ? (oui/non)",
+  "fever": "Avez-vous de la fièvre ? (oui/non)",
+  "sore_throat": "Avez-vous mal à la gorge ? (oui/non)",
+  "restlessness": "Vous sentez-vous agité ou nerveux ? (oui/non)"
+}
