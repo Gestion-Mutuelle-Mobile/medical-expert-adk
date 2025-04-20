@@ -10,6 +10,8 @@ from google.adk.sessions import InMemorySessionService
 from google.genai.types import Content, Part
 import dotenv
 
+from utils.utils import sanitize_for_logging
+
 dotenv.load_dotenv()
 
 # === CONFIG ===
@@ -53,6 +55,8 @@ def main():
     logger.info(f"Démarrage session : session_id={session_id} user_id={user_id}")
 
     runner = Runner(agent=medical_agent, app_name=APP_NAME, session_service=SESSION_SERVICE)
+    # >>>> AJOUT ICI <<<<
+    SESSION_SERVICE.create_session(app_name=APP_NAME,user_id=user_id, session_id=session_id)
     print("Tapez vos symptômes/questions (ou 'exit' pour quitter) :")
     while True:
         user_input = input("> ").strip()
@@ -61,7 +65,8 @@ def main():
             break
         if not user_input:
             continue
-        logger.info(f"User({user_id}) [{session_id}] : {user_input}")
+        safe_user_input = sanitize_for_logging(user_input)
+        logger.info(f"User({user_id}) [{session_id}] : {safe_user_input}")
         content = Content(role="user", parts=[Part(text=user_input)])
         response = ""
         for event in runner.run(user_id=user_id, session_id=session_id, new_message=content):

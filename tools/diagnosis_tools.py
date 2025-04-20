@@ -18,9 +18,33 @@ TREATMENTS_DIR = os.path.join(DATA_DIR, "disease_treatments")
 PATIENT_HISTORY_DIR = os.path.join(DATA_DIR, "patients")
 os.makedirs(PATIENT_HISTORY_DIR, exist_ok=True)
 
+# Au début du fichier, après avoir défini les chemins
+required_files = [RULES_FILE, SYMPTOMS_FILE, QUESTIONS_FILE]
+required_dirs = [DESCRIPTIONS_DIR, TREATMENTS_DIR, PATIENT_HISTORY_DIR]
+
+for file_path in required_files:
+    if not os.path.exists(file_path):
+        print(f"ERREUR: Fichier requis manquant: {file_path}")
+
+for dir_path in required_dirs:
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path, exist_ok=True)
+        print(f"INFO: Répertoire créé: {dir_path}")
+
+
 def _load_json(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        if not os.path.exists(filepath):
+            print(f"ERREUR: Fichier introuvable: {filepath}")
+            return {}
+        with open(filepath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError:
+        print(f"ERREUR: Format JSON invalide dans {filepath}")
+        return {}
+    except Exception as e:
+        print(f"ERREUR lors du chargement de {filepath}: {str(e)}")
+        return {}
 
 def _save_json(filepath, data):
     with open(filepath, "w", encoding="utf-8") as f:
@@ -92,7 +116,7 @@ def list_symptoms(tool_context: ToolContext = None) -> dict:
         "symptoms": sorted(list(all_symptoms))
     }
 
-def suggest_questions(symptoms: dict = None, tool_context: ToolContext = None) -> dict:
+def suggest_questions(symptoms: dict = {}, tool_context: ToolContext = None) -> dict:
     """
     Suggère les prochaines questions les plus discriminantes à poser à l'utilisateur.
     """

@@ -1,0 +1,354 @@
+[2025-04-20 08:43:28,638] INFO [medical_expert_cli:53] Démarrage session : session_id=session_20250420_084328_2c37 user_id=user_68d71c44
+[2025-04-20 08:44:07,118] INFO [medical_expert_cli:64] User(user_68d71c44) [session_20250420_084328_2c37] : bonjour
+[2025-04-20 08:44:07,165] INFO [medical_expert_cli:71] Agent [session_20250420_084328_2c37] : 
+[2025-04-20 08:46:58,134] INFO [medical_expert_cli:53] Démarrage session : session_id=session_20250420_084658_dbdd user_id=user_c570245c
+[2025-04-20 08:46:58,134] ERROR [medical_expert_cli:79] Erreur fatale dans le CLI : create_session() missing 1 required keyword-only argument: 'app_name'
+Traceback (most recent call last):
+  File "C:\Users\donfa\OneDrive\Desktop\Expert System\medical_expert_adk\main.py", line 77, in <module>
+    main()
+  File "C:\Users\donfa\OneDrive\Desktop\Expert System\medical_expert_adk\main.py", line 57, in main
+    SESSION_SERVICE.create_session(user_id=user_id, session_id=session_id)
+TypeError: create_session() missing 1 required keyword-only argument: 'app_name'
+[2025-04-20 08:50:58,884] INFO [medical_expert_cli:53] Démarrage session : session_id=session_20250420_085058_7552 user_id=user_30e62251
+[2025-04-20 08:50:58,884] ERROR [medical_expert_cli:79] Erreur fatale dans le CLI : create_session() missing 1 required keyword-only argument: 'app_name'
+Traceback (most recent call last):
+  File "C:\Users\donfa\OneDrive\Desktop\Expert System\medical_expert_adk\main.py", line 77, in <module>
+    main()
+  File "C:\Users\donfa\OneDrive\Desktop\Expert System\medical_expert_adk\main.py", line 57, in main
+    SESSION_SERVICE.create_session(user_id=user_id, session_id=session_id)
+TypeError: create_session() missing 1 required keyword-only argument: 'app_name'
+[2025-04-20 08:51:46,789] INFO [medical_expert_cli:53] Démarrage session : session_id=session_20250420_085146_2e98 user_id=user_04c8342f
+[2025-04-20 08:51:51,373] INFO [medical_expert_cli:66] User(user_04c8342f) [session_20250420_085146_2e98] : k
+[2025-04-20 08:51:51,388] INFO [medical_expert_cli:73] Agent [session_20250420_085146_2e98] : 
+[2025-04-20 09:05:12,836] INFO [medical_expert_cli:53] Démarrage session : session_id=session_20250420_090512_b251 user_id=user_1772129a
+[2025-04-20 09:05:18,519] INFO [medical_expert_cli:66] User(user_1772129a) [session_20250420_090512_b251] : j'ai mal
+[2025-04-20 09:05:18,528] INFO [medical_expert_cli:73] Agent [session_20250420_090512_b251] : 
+[2025-04-20 09:11:00,726] INFO [medical_expert_cli:53] Démarrage session : session_id=session_20250420_091100_566d user_id=user_940fc3cc
+[2025-04-20 09:11:15,557] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : j'ai mal au dos
+[2025-04-20 09:11:15,754] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:11:22,581] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8504C160>
+[2025-04-20 09:11:22,581] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB84F1BA40> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:11:23,375] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8503E070>
+[2025-04-20 09:11:23,375] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:11:23,375] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:11:23,375] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:11:23,376] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:11:23,376] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:11:25,042] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:11:23 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1542'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:11:25,043] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:11:25,044] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:11:25,045] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:11:25,045] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:11:25,047] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:11:25,047] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:11:25,049] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : Bonjour ! Dr. Fox à votre service. Mal au dos, d'accord. Pour mieux cerner votre situation, pourriez-vous me dire si vous avez d'autres symptômes ? Par exemple, avez-vous de la fièvre, des engourdissements, ou des difficultés à uriner ?
+[2025-04-20 09:11:52,501] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : mal a la poitrine oui
+[2025-04-20 09:11:52,524] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:11:52,636] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095BE0>
+[2025-04-20 09:11:52,636] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB84F1BDC0> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:11:52,812] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095880>
+[2025-04-20 09:11:52,813] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:11:52,813] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:11:52,813] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:11:52,813] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:11:52,814] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:11:54,409] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:11:53 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1464'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:11:54,409] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:11:54,410] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:11:54,410] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:11:54,410] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:11:54,411] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:11:54,412] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:11:54,413] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : Mal au dos et à la poitrine, hmm... Pourrais-je vous poser quelques questions supplémentaires afin de mieux comprendre ce qui se passe ? Avez-vous de la toux, de la fièvre, ou des difficultés à respirer ?
+[2025-04-20 09:12:31,967] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : oui j'ai du mal a respirer depuis hier faites moi aussi une blague docteur
+[2025-04-20 09:12:31,993] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:12:32,111] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB84ED6640>
+[2025-04-20 09:12:32,112] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB8500D5C0> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:12:32,302] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8504CF10>
+[2025-04-20 09:12:32,302] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:12:32,302] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:12:32,302] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:12:32,303] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:12:32,303] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:12:34,201] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:12:33 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1774'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:12:34,203] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:12:34,203] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:12:34,203] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:12:34,204] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:12:34,207] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:12:34,207] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:16:18,702] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : vraiment ?
+[2025-04-20 09:16:18,724] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:16:18,910] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85064790>
+[2025-04-20 09:16:18,910] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB85134340> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:16:19,160] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB850646D0>
+[2025-04-20 09:16:19,160] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:16:19,160] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:16:19,160] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:16:19,161] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:16:19,161] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:16:20,939] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:16:19 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1589'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:16:20,940] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:16:20,941] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:16:20,941] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:16:20,941] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:16:20,942] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:16:20,942] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:16:42,031] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : mal de tete et c'est tout
+[2025-04-20 09:16:42,058] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:16:42,360] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85031520>
+[2025-04-20 09:16:42,360] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB851343C0> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:16:42,539] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB850310A0>
+[2025-04-20 09:16:42,539] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:16:42,539] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:16:42,539] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:16:42,540] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:16:42,540] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:16:44,248] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:16:43 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1584'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:16:44,249] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:16:44,250] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:16:44,250] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:16:44,250] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:16:44,251] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:16:44,252] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:16:44,253] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : OK. Donc, si je récapitule, vous avez mal au dos, à la poitrine, vous avez du mal à respirer et vous avez mal à la tête. Est-ce bien cela ? Avez-vous remarqué si quelque chose en particulier déclenche ou aggrave ces symptômes ?
+
+[2025-04-20 09:17:03,341] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : non
+[2025-04-20 09:17:03,368] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:17:03,562] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85070070>
+[2025-04-20 09:17:03,562] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB85134640> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:17:03,835] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85070280>
+[2025-04-20 09:17:03,835] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:17:03,836] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:17:03,836] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:17:03,836] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:17:03,836] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:17:05,538] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:17:04 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1505'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:17:05,539] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:17:05,539] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:17:05,539] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:17:05,540] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:17:05,541] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:17:05,541] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:17:05,542] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : Bien. Sur une échelle de 1 à 10, où 1 est une douleur très légère et 10 est la douleur la plus intense que vous ayez jamais ressentie, comment évalueriez-vous votre douleur à la poitrine ?
+
+[2025-04-20 09:17:22,849] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : 7
+[2025-04-20 09:17:22,875] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:17:23,058] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095EB0>
+[2025-04-20 09:17:23,058] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB85134A40> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:17:23,309] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095610>
+[2025-04-20 09:17:23,309] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:17:23,310] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:17:23,310] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:17:23,310] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:17:23,310] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:17:24,949] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:17:23 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1446'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:17:24,949] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:17:24,950] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:17:24,950] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:17:24,950] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:17:24,952] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:17:24,952] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:17:24,953] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : D'accord. Et concernant votre difficulté à respirer, diriez-vous que c'est une sensation d'oppression, de souffle court, ou autre chose ?
+
+[2025-04-20 09:17:43,202] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : docteur faites mon dignositque je vous ai tout dit
+[2025-04-20 09:17:43,228] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:17:43,412] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095100>
+[2025-04-20 09:17:43,412] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB85134BC0> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:17:43,669] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095F10>
+[2025-04-20 09:17:43,670] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:17:43,670] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:17:43,670] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:17:43,671] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:17:43,671] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:17:45,548] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:17:44 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1688'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:17:45,549] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:17:45,549] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:17:45,549] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:17:45,549] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:17:45,576] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:17:45,576] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:17:45,576] DEBUG [httpcore.connection:87] close.complete
+[2025-04-20 09:17:45,753] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8504C2B0>
+[2025-04-20 09:17:45,753] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB8503A3C0> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:17:46,013] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8504C280>
+[2025-04-20 09:17:46,013] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:17:46,013] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:17:46,013] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:17:46,015] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:17:46,015] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:17:47,998] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:17:46 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1791'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:17:47,999] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:17:48,000] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:17:48,000] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:17:48,000] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:17:48,001] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:17:48,002] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:17:48,003] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : Hmm, c'est étrange. D'après les informations que vous m'avez fournies, je n'arrive pas à établir un diagnostic précis avec certitude. Cela peut être dû à plusieurs raisons, et il est important de ne pas tirer de conclusions hâtives.
+
+Pour affiner le diagnostic, pourrions-nous explorer quelques pistes supplémentaires ? J'aimerais vous poser d'autres questions. Cela pourrait nous aider à mieux comprendre ce qui se passe. Seriez-vous d'accord ?
+
+[2025-04-20 09:18:11,436] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : ok une derniere
+[2025-04-20 09:18:11,463] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:18:11,645] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85064A60>
+[2025-04-20 09:18:11,645] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB84F04640> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:18:14,476] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85064DC0>
+[2025-04-20 09:18:14,476] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:18:14,476] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:18:14,477] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:18:14,477] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:18:14,477] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:18:16,010] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:18:14 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1321'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:18:16,010] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:18:16,012] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:18:16,012] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:18:16,012] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:18:16,014] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:18:16,014] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:18:16,016] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : Parfait. Avez-vous de la fièvre, des frissons, ou des sueurs nocturnes ?
+
+[2025-04-20 09:18:21,682] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : fievre
+[2025-04-20 09:18:21,710] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:18:21,855] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095670>
+[2025-04-20 09:18:21,856] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB8503A140> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:18:22,080] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095850>
+[2025-04-20 09:18:22,080] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:18:22,080] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:18:22,080] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:18:22,081] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:18:22,081] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:18:23,767] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:18:22 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1564'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:18:23,768] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:18:23,768] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:18:23,769] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:18:23,769] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:18:23,792] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:18:23,792] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:18:23,793] DEBUG [httpcore.connection:87] close.complete
+[2025-04-20 09:18:23,909] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85031040>
+[2025-04-20 09:18:23,909] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB851349C0> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:18:24,087] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8503EEB0>
+[2025-04-20 09:18:24,088] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:18:24,088] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:18:24,088] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:18:24,088] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:18:24,089] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:18:27,223] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:18:26 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=3008'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:18:27,224] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:18:27,224] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:18:27,225] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:18:27,225] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:18:27,227] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:18:27,227] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:18:27,228] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : Je suis toujours dans l'incapacité d'établir un diagnostic précis avec les informations dont je dispose. Cela peut être frustrant, je le comprends.
+
+Pour ne pas vous laisser sans réponse, je vais vous proposer quelques pistes possibles, tout en soulignant qu'il est crucial de consulter un médecin pour un diagnostic définitif et un traitement approprié.
+
+Votre combinaison de symptômes pourrait évoquer :
+
+*   **Une infection respiratoire :** comme une pneumonie ou une bronchite, surtout avec la fièvre et les difficultés respiratoires.
+*   **Un problème musculo-squelettique :** les douleurs au dos et à la poitrine pourraient être liées à une tension musculaire ou à une inflammation, mais cela n'explique pas forcément la fièvre et les difficultés respiratoires.
+*   **Dans de rares cas, un problème cardiaque :** la douleur thoracique et les difficultés respiratoires peuvent parfois être liées à des problèmes cardiaques, mais d'autres symptômes seraient généralement présents.
+
+Compte tenu de la difficulté à respirer et de la fièvre, je vous recommande vivement de consulter un médecin dès que possible. Il pourra effectuer des examens complémentaires (auscultation, radiographie pulmonaire, analyses sanguines...) pour identifier la cause de vos symptômes et vous proposer un traitement adapté.
+
+En attendant, reposez-vous, hydratez-vous bien et surveillez l'évolution de vos symptômes. Si vous avez l'impression que votre état s'aggrave, n'hésitez pas à vous rendre aux urgences.
+
+[2025-04-20 09:19:35,266] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : (c'est le dev qui te parle et je veux savoir si tu arrives bien a te servir des fonctions outils de dignostique que tu as a ta disposition?) si oui quels sont les maux que tu peux diagnostiquer que je t'ai progrmme ?
+[2025-04-20 09:19:35,298] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:19:35,414] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8504C6A0>
+[2025-04-20 09:19:35,414] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB8503A140> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:19:35,589] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8504CF10>
+[2025-04-20 09:19:35,589] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:19:35,590] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:19:35,590] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:19:35,590] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:19:35,590] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:19:37,912] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:19:36 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=2197'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:19:37,912] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:19:37,913] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:19:37,913] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:19:37,913] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:19:37,915] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:19:37,915] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:20:42,398] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : execute une des fonctions je veux voir si tu peux vraiment
+[2025-04-20 09:20:42,427] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:20:42,546] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85031190>
+[2025-04-20 09:20:42,546] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB84FCCAC0> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:20:43,277] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85064A30>
+[2025-04-20 09:20:43,278] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:20:43,278] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:20:43,278] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:20:43,278] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:20:43,278] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:20:45,736] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:20:43 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1468'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:20:45,736] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:20:45,737] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:20:45,737] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:20:45,737] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:20:45,764] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:20:45,765] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:20:45,765] DEBUG [httpcore.connection:87] close.complete
+[2025-04-20 09:20:45,946] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB84ED6AF0>
+[2025-04-20 09:20:45,946] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB85134540> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:20:46,198] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85031190>
+[2025-04-20 09:20:46,199] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:20:46,199] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:20:46,199] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:20:46,199] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:20:46,199] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:20:49,326] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:20:46 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1483'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:20:49,326] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:20:49,327] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:20:49,327] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:20:49,327] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:20:49,329] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:20:49,330] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:20:49,331] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : Comme vous pouvez le voir, j'ai bien exécuté la fonction `list_symptoms` et obtenu la liste des symptômes connus du système. Maintenant, dites-moi si vous souhaitez que j'essaie un diagnostic avec une combinaison de ces symptômes.
+
+[2025-04-20 09:21:11,626] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : quel est cette liste que tu as obtenu je dois savoir
+[2025-04-20 09:21:11,654] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:21:11,846] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB84F5E130>
+[2025-04-20 09:21:11,846] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB85134540> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:21:12,109] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB84F5E580>
+[2025-04-20 09:21:12,109] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:21:12,109] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:21:12,110] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:21:12,110] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:21:12,110] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:21:14,126] DEBUG [httpcore.http11:87] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sun, 20 Apr 2025 08:21:13 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1815'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+[2025-04-20 09:21:14,127] DEBUG [httpcore.http11:87] receive_response_body.started request=<Request [b'POST']>
+[2025-04-20 09:21:14,128] DEBUG [httpcore.http11:87] receive_response_body.complete
+[2025-04-20 09:21:14,128] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:21:14,128] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:21:14,130] DEBUG [httpcore.connection:87] close.started
+[2025-04-20 09:21:14,130] DEBUG [httpcore.connection:87] close.failed exception=CancelledError()
+[2025-04-20 09:21:14,131] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : Absolument ! Voici la liste des symptômes que j'ai obtenue en utilisant la fonction `list_symptoms` :
+
+*   back\_pain
+*   chest\_pain
+*   cough
+*   fainting
+*   fatigue
+*   fever
+*   headache
+*   restlessness
+*   sore\_throat
+*   sunken\_eyes
+
+Il s'agit des symptômes que je peux actuellement prendre en compte pour établir un diagnostic. N'hésitez pas à me proposer une combinaison de ces symptômes pour que je puisse tester la fonction `diagnose`.
+
+[2025-04-20 09:39:16,332] INFO [medical_expert_cli:66] User(user_940fc3cc) [session_20250420_091100_566d] : humm
+[2025-04-20 09:39:16,364] DEBUG [httpcore.connection:87] connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+[2025-04-20 09:39:16,737] DEBUG [httpcore.connection:87] connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB85095A90>
+[2025-04-20 09:39:16,737] DEBUG [httpcore.connection:87] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BB85134540> server_hostname='generativelanguage.googleapis.com' timeout=None
+[2025-04-20 09:39:35,227] DEBUG [httpcore.connection:87] start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002BB8501D370>
+[2025-04-20 09:39:35,227] DEBUG [httpcore.http11:87] send_request_headers.started request=<Request [b'POST']>
+[2025-04-20 09:39:35,228] DEBUG [httpcore.http11:87] send_request_headers.complete
+[2025-04-20 09:39:35,228] DEBUG [httpcore.http11:87] send_request_body.started request=<Request [b'POST']>
+[2025-04-20 09:39:35,228] DEBUG [httpcore.http11:87] send_request_body.complete
+[2025-04-20 09:39:35,228] DEBUG [httpcore.http11:87] receive_response_headers.started request=<Request [b'POST']>
+[2025-04-20 09:39:35,403] DEBUG [httpcore.http11:87] receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+[2025-04-20 09:39:35,403] DEBUG [httpcore.http11:87] response_closed.started
+[2025-04-20 09:39:35,404] DEBUG [httpcore.http11:87] response_closed.complete
+[2025-04-20 09:39:35,454] INFO [medical_expert_cli:73] Agent [session_20250420_091100_566d] : 

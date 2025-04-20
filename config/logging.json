@@ -15,7 +15,8 @@
       "class": "logging.FileHandler",
       "filename": "logs/medical_expert.log",
       "formatter": "detailed",
-      "level": "DEBUG"
+      "level": "DEBUG",
+      "encoding": "utf-8"
     }
   },
   "root": {
